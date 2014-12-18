@@ -1,0 +1,30 @@
+<prov:document>
+	<prov:wasGeneratedBy>
+      <prov:entity prov:ref="PPT-20140417"/>
+      <prov:activity prov:ref="deleteActivity"/>
+    </prov:wasGeneratedBy>
+	<prov:wasAssociatedWith>
+      <prov:activity prov:ref="deleteActivity"/>
+      <prov:agent prov:ref="teacher zhang"/>
+    </prov:wasAssociatedWith>
+    <prov:used>
+      <prov:activity prov:ref="deleteActivity"/>
+      <prov:entity prov:ref="PPT-20140312"/>
+    </prov:used> 
+	<prov:wasGeneratedBy>
+	  <prov:entity prov:ref="PPT-20140312"/>
+      <prov:activity prov:ref="modifyActivity"/>
+    </prov:wasGeneratedBy> 
+	<prov:wasAssociatedWith>
+      <prov:activity prov:ref="modifyActivity"/>
+      <prov:agent prov:ref="student li"/>
+    </prov:wasAssociatedWith>
+	<prov:actedOnBehalfOf>
+	  <prov:agent prov:ref="student li"/>
+      <prov:agent prov:ref="teacher wang"/>
+    </prov:actedOnBehalfOf>
+	<prov:used>
+	  <prov:activity prov:ref="modifyActivity"/>
+	  <prov:entity prov:ref="PPT-20140301"/>
+    </prov:used> 
+</prov:document>
